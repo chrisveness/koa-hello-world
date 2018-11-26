@@ -5,4 +5,4 @@ One step up from Koa’s [hello world](http://koajs.com#application), this is a 
 using routing and handlebars templating.
 
 This is a Koa v2 version (using async/await). This version requires Node.js v7.0.0+. There is a Koa 
-v1 version on the [master](../..) branch.
+v1 version on the [koa-v1](../../tree/koa-v1) branch.
