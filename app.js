@@ -2,11 +2,13 @@
 /* app.js; minimal 'hello world' app (using router & handlebars)                                  */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
-const Koa        = require('koa');            // koa framework
-const router     = require('koa-router')();   // router middleware for koa
-const handlebars = require('koa-handlebars'); // handlebars templating
+import Koa        from 'koa';            // koa framework
+import Router     from 'koa-router';     // router middleware for koa
+import handlebars from 'koa-handlebars'; // handlebars templating
 
 const app = new Koa();
+
+const router = new Router();
 
 app.use(handlebars({
     extension: [ 'html' ],

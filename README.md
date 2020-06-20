@@ -13,5 +13,5 @@ $ npm start
 ````
 and open `http://localhost:3000` in your browser.
 
-This is a Koa v2 version (using async/await). This version requires Node.js v7.0.0+. There is a Koa 
-v1 version on the [koa-v1](../../tree/koa-v1) branch.
+This is a Koa v2 version (using async/await), using ES modules. Koa v2 requires Node.js v7.0.0+; ES
+modules requires Node.js v13.2.0+.
